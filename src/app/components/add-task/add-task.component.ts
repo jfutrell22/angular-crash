@@ -37,6 +37,7 @@ export class AddTaskComponent {
     this.text = '';
     this.day = '';
     this.reminder = false;
-
+    window.location.reload();
+    
   }
 }

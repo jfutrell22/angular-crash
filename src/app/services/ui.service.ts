@@ -5,7 +5,7 @@ import { Observable, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class UiService {
-  private showAddTask: Boolean = false;
+  private showAddTask: Boolean;
   private subject = new Subject<any>();
 
   constructor() { }
