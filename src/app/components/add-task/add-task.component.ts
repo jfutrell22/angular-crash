@@ -37,5 +37,6 @@ export class AddTaskComponent {
     this.text = '';
     this.day = '';
     this.reminder = false;
+
   }
 }
